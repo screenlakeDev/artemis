@@ -33,11 +33,8 @@ android {
         jvmTarget = "1.8"
     }
 }
-
-allprojects {
-    repositories {
-        maven { url 'https://www.jitpack.io' }
-    }
+repositories {
+    maven { url 'https://www.jitpack.io' }
 }
 
 dependencies {
@@ -72,3 +69,5 @@ dependencyResolutionManagement {
         }
     }
 }
+
+
