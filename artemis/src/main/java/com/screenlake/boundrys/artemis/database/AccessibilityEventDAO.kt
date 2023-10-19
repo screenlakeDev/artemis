@@ -1,7 +1,6 @@
 package com.screenlake.boundrys.artemis.database
 
 import androidx.room.*
-import com.screenlake.boundrys.artemis.database.AccessibilityEvent
 
 @Dao
 interface AccessibilityEventDAO {

@@ -8,11 +8,6 @@ import com.screenlake.boundrys.artemis.behavior.behaviors.models.behavior.scroll
 import com.screenlake.boundrys.artemis.behavior.behaviors.models.behavior.topic.TopicSeenInterval
 import com.screenlake.boundrys.artemis.behavior.behaviors.models.doa.ScrollEventlDAO
 import com.screenlake.boundrys.artemis.behavior.behaviors.models.doa.TopicSeenDAO
-import com.screenlake.boundrys.artemis.database.AccessibilityEventDAO
-import com.screenlake.boundrys.artemis.database.LogEventDAO
-import com.screenlake.boundrys.artemis.database.ScreenshotZip
-import com.screenlake.boundrys.artemis.database.ScreenshotZipDAO
-import com.screenlake.boundrys.artemis.database.UserDAO
 
 @Database(
     entities = [ScreenshotZip::class, AccessibilityEvent::class, AccessibilityEventFts::class, ScrollEventSegment::class, TopicSeenInterval::class],

@@ -1,6 +1,5 @@
 package com.screenlake.boundrys.artemis.search
 
-import android.content.Context
 import com.screenlake.boundrys.artemis.behavior.behaviors.models.behavior.topic.SearchResult
 import com.screenlake.boundrys.artemis.behavior.behaviors.models.behavior.topic.WordTopic
 

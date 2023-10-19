@@ -16,7 +16,6 @@ import com.screenlake.boundrys.artemis.repository.GenOp
 import com.screenlake.boundrys.artemis.database.AccessibilityEvent
 import com.screenlake.boundrys.artemis.services.TouchAccessibilityService
 import com.screenlake.boundrys.artemis.utility.TimeUtility
-import com.screenlake.boundrys.artemis.behavior.behaviors.handlers.EventHandler
 import java.io.BufferedReader
 import java.io.IOException
 import java.io.InputStreamReader

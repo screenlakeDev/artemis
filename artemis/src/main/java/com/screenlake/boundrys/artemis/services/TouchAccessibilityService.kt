@@ -17,10 +17,7 @@ import com.screenlake.boundrys.artemis.services.helper.SystemTouchEventReceiver
 import com.screenlake.boundrys.artemis.utility.TimeUtility
 import com.screenlake.boundrys.artemis.database.User
 import kotlinx.coroutines.*
-import kotlinx.coroutines.sync.Mutex
-import kotlinx.coroutines.sync.withLock
 import timber.log.Timber
-import java.lang.ref.WeakReference
 import java.time.Instant
 import java.util.*
 import java.util.concurrent.atomic.AtomicBoolean
