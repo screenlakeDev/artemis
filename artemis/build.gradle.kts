@@ -7,7 +7,7 @@ plugins {
 
 android {
     namespace = "com.screenlake.boundrys.artemis"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         minSdk = 26
@@ -34,6 +34,12 @@ android {
     }
 }
 
+allprojects {
+    repositories {
+        maven { url 'https://www.jitpack.io' }
+    }
+}
+
 dependencies {
 
     implementation("androidx.core:core-ktx:1.9.0")
@@ -54,6 +60,7 @@ dependencies {
     // Dagger Hilt
     implementation("com.google.dagger:hilt-android:2.44")
     kapt("com.google.dagger:hilt-android-compiler:2.44")
+
 }
 
 dependencyResolutionManagement {
